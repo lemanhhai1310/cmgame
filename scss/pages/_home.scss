@@ -1,0 +1,268 @@
+.home{
+  &__title{
+    &:before{
+      margin-right: 10px;
+      @include media-breakpoint-up('m'){
+        margin-right: 27px;
+      }
+      content: "";
+      width: 28px;
+      display: inline-block;
+      height: 28px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.2 12.2H8C10.8 12.2 12.2 10.8 12.2 8V5.2C12.2 2.4 10.8 1 8 1H5.2C2.4 1 1 2.4 1 5.2V8C1 10.8 2.4 12.2 5.2 12.2Z' stroke='%23F18C34' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 12.2H24.8C27.6 12.2 29 10.8 29 8V5.2C29 2.4 27.6 1 24.8 1H22C19.2 1 17.8 2.4 17.8 5.2V8C17.8 10.8 19.2 12.2 22 12.2Z' stroke='%23F8F8F8' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 28.9999H24.8C27.6 28.9999 29 27.5999 29 24.7999V21.9999C29 19.1999 27.6 17.7999 24.8 17.7999H22C19.2 17.7999 17.8 19.1999 17.8 21.9999V24.7999C17.8 27.5999 19.2 28.9999 22 28.9999Z' stroke='%23F18C34' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5.2 28.9999H8C10.8 28.9999 12.2 27.5999 12.2 24.7999V21.9999C12.2 19.1999 10.8 17.7999 8 17.7999H5.2C2.4 17.7999 1 19.1999 1 21.9999V24.7999C1 27.5999 2.4 28.9999 5.2 28.9999Z' stroke='%23F8F8F8' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    }
+    text-align: center;
+    color: #f8f8f8;
+    @include fluidx(48px,38px,font-size);
+    font-weight: 500;
+    span{
+      color: #FF9431;
+    }
+  }
+  &__divider{
+    &:nth-child(n+2){
+      border-top: 1px solid #393860;
+      margin-top: 30px;
+      padding-top: 30px;
+      @include media-breakpoint-up('m'){
+        margin-top: 60px;
+        padding-top: 60px;
+      }
+    }
+  }
+  &__bg1{
+    background: #1E1D32;
+  }
+  &__bg2{
+    background: #292845;
+  }
+  &__slideshow{
+    .uk-slideshow-nav{
+      >*{
+        &:hover,
+        &.uk-active{
+          >*{
+            background: #F93132;
+          }
+        }
+        >*{
+          @include media-breakpoint-up('m'){
+            width: 82px;
+            height: 15px;
+            border-radius: 100px;
+            background: rgba(255, 255, 255, 0.5);
+            border-color: transparent;
+          }
+        }
+      }
+    }
+    &__box{
+      >*{
+        &:nth-child(n+2){
+          margin-top: 20px;
+          @include media-breakpoint-up('m'){
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+    &__txt1{
+      font-size: 24px;
+      line-height: (28/24);
+      font-weight: 500;
+      color: #fff;
+      span{
+        position: relative;
+        &:after{
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0px;
+          height: 2px;
+          background-color: #FF9431;
+          transition: .3s ease-in-out;
+          transition-property: right;
+        }
+      }
+    }
+    &__txt2{
+      font-size: 32px;
+      line-height: (37/32);
+      color: #fff;
+      div{
+        color: #FF9431;
+        font-weight: 600;
+      }
+    }
+    &__btn{
+      text-transform: inherit;
+      font-weight: 500;
+      &.uk-button-danger{
+        background: #F93132;
+      }
+      &.uk-button-secondary{
+        background: #FF9431;
+      }
+    }
+  }
+  &__service{
+    &__bg{
+      mix-blend-mode: overlay;
+      background-position: top 81px right 17px;
+    }
+    &__boxImg{
+
+    }
+    &__txt1{
+      color: #FF9431;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    &__txt2{
+      color: #f8f8f8;
+      font-size: 15px;
+      margin-top: 15px;
+    }
+    &__card{
+      border-radius: 20px;
+      &__title{
+        font-size: 48px;
+        font-weight: 500;
+        color: #f8f8f8;
+        line-height: (56/48);
+        span{
+          color: #FF9431;
+        }
+      }
+      &__box{
+        border-bottom: 1px solid #3B3961;
+        p{
+
+        }
+      }
+    }
+  }
+  &__block01{
+    &__img{
+      aspect-ratio: 550/402;
+      object-fit: cover;
+    }
+    &__txt{
+      color: #F8F8F8;
+      font-size: 16px;
+      @include fluidx(16px,14px,font-size);
+    }
+    &__box{
+      //min-height: 450px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      @include media-breakpoint-up('m'){
+        padding: 40px;
+      }
+    }
+  }
+  &__team{
+    &__dotnav{
+      >*{
+        &.uk-active{
+          >*{
+            @include media-breakpoint-up('m'){
+              width: 54px;
+              border-radius: 20px;
+            }
+            background: #FF9431;
+          }
+        }
+        >*{
+          &:hover{
+            background: #FF9431;
+            border-color: transparent;
+          }
+          border-color: #FF9431;
+          @include media-breakpoint-up('m'){
+            width: 12px;
+            height: 12px;
+          }
+        }
+      }
+    }
+    &__card{
+      background: #292845;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    &__img{
+      aspect-ratio: 375/252;
+    }
+    &__body{
+      padding: 20px;
+      @include media-breakpoint-up('m'){
+        padding: 30px;
+      }
+    }
+    &__txt1{
+      color: #FF9431;
+      font-size: 14px;
+      line-height: (16/14);
+    }
+    &__txt2{
+      color: #fff;
+      font-size: 18px;
+      line-height: (21/18);
+      margin-top: 15px;
+    }
+    &__box{
+      >*{
+        &:nth-child(n+2){
+          margin-top: 15px;
+        }
+      }
+    }
+    &__icon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__t1{
+      color: #FF9431;
+      font-size: 20px;
+      font-weight: 500;
+      @include fluidx(20px,17px,font-size);
+    }
+    &__t2{
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+  &__conso{
+    &__box{
+      border: 2px solid #F8F8F8;
+    }
+    &__txt1{
+      color: #FF9431;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: (38/32);
+    }
+    &__txt2{
+      color: #F8F8F8;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.31;
+    }
+    &__box1{
+      >*{
+        &:nth-child(n+2){
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

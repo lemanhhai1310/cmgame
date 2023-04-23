@@ -1,0 +1,52 @@
+.footer{
+  @include media-breakpoint-up('m'){
+    padding-bottom: 0;
+  }
+  &__name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: (23/20);
+  }
+  &__address{
+    font-size: 16px;
+    line-height: (21/16);
+  }
+  &__navbar{
+    .uk-navbar-nav{
+      >li{
+        &.uk-active{
+          >a{
+            &:before{
+              right: 0;
+            }
+          }
+        }
+        >a{
+          font-size: 15px;
+          font-family: $font-primary;
+          font-weight: 500;
+          color: #F8F8F8;
+          position: relative;
+          &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            right: calc(102% - 0px);
+            bottom: 20px;
+            height: 1px;
+            background-color: #FF9431;
+            transition: .3s ease-in-out;
+            transition-property: right;
+          }
+          &:hover{
+            &:before{
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
