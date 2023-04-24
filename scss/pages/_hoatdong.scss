@@ -1,0 +1,65 @@
+.hoatdong{
+  &__boxContent{
+    border-top: 1px solid #292845;
+    border-bottom: 1px solid #292845;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @include media-breakpoint-up('m'){
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+  &__header{
+    &__txt{
+      font-size: 16px;
+      color: #f8f8f8;
+    }
+    &__title{
+      font-size: 36px;
+      color: #f8f8f8;
+      font-weight: 500;
+      span{
+        border-bottom: 1px solid #FF9431;
+        display: inline-block;
+        padding-bottom: 1px;
+      }
+    }
+  }
+  &__card{
+    background: #292845;
+    border-radius: 15px;
+    overflow: hidden;
+    img{
+      aspect-ratio: 375/252;
+      object-fit: cover;
+    }
+    &__title{
+      font-size: 20px;
+      font-weight: 500;
+      a{
+        color: #fff;
+      }
+    }
+    &__desc{
+      color: #f8f8f8;
+      font-size: 14px;
+    }
+    &__time{
+      color: #FF9431;
+      font-size: 15px;
+    }
+    &__divider{
+      border-top: 1px solid #37355A;
+      &:nth-child(n+2){
+        margin-top: 15px;
+        padding-top: 15px;
+      }
+    }
+    &__body{
+      padding: 20px;
+      @include media-breakpoint-up('m'){
+        padding: 24px;
+      }
+    }
+  }
+}

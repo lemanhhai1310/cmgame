@@ -1,4 +1,4 @@
-<?php $data["title"] = "Home"; ?>
+<?php $data["title"] = "Về chúng tôi"; ?>
 <?php $bodyClass = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <div class="uk-position-relative uk-light">

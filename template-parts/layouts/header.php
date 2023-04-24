@@ -31,7 +31,7 @@
 
                 <div class="uk-navbar-left">
 
-                    <a href="" class="header__navitem uk-navbar-item uk-logo"><img src="images/logo.png" alt=""></a>
+                    <a href="." class="header__navitem uk-navbar-item uk-logo"><img src="images/logo.png" alt=""></a>
 
                 </div>
 
@@ -41,9 +41,9 @@
                         <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
                         <li><a href="vechungtoi.php">VỀ CHÚNG TÔI</a></li>
                         <li><a href="#">SẢN PHẨM</a></li>
-                        <li><a href="#">HOẠT ĐỘNG</a></li>
-                        <li><a href="#">TUYỂN DỤNG</a></li>
-                        <li><a href="#">LIÊN HỆ</a></li>
+                        <li><a href="hoatdong.php">HOẠT ĐỘNG</a></li>
+                        <li><a href="tuyendung.php">TUYỂN DỤNG</a></li>
+                        <li><a href="lienhe.php">LIÊN HỆ</a></li>
                     </ul>
 
                 </div>

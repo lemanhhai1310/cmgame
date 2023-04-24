@@ -1,0 +1,42 @@
+.tuyendung{
+  &__item{
+    &:nth-child(n+2){
+      border-top: 1px solid #292845;
+      margin-top: 20px;
+      padding-top: 20px;
+      @include media-breakpoint-up('m'){
+        margin-top: 40px;
+        padding-top: 40px;
+      }
+    }
+  }
+  &__title{
+    font-size: 14px;
+    color: #FF9431;
+  }
+  &__txt1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+  }
+  &__txt2{
+    font-size: 16px;
+    color: #f8f8f8;
+  }
+  &__c1{
+    font-size: 13px;
+    color: #FF9431;
+  }
+  &__c2{
+    font-size: 13px;
+    color: #f8f8f8;
+  }
+  &__article{
+    font-size: 16px;
+    .uk-list{
+      >*{
+        margin: 0;
+      }
+    }
+  }
+}
