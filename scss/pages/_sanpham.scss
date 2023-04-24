@@ -1,0 +1,91 @@
+.sanpham{
+  &__block01{
+    @include media-breakpoint-up('m'){
+      min-height: 420px;
+    }
+    &__txt1{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      @include fluidx(20px,16px,font-size);
+    }
+    &__txt2{
+      color: #FF9431;
+      font-size: 60px;
+      @include fluidx(60px,30px,font-size);
+      font-weight: 600;
+    }
+  }
+  &__item{
+    &:nth-child(n+2){
+      margin-top: 20px;
+      padding-top: 20px;
+      @include media-breakpoint-up('m'){
+        margin-top: 40px;
+        padding-top: 40px;
+      }
+      border-top: 1px solid #292845;
+    }
+  }
+  &__img1{
+    aspect-ratio: 600/300;
+    object-fit: cover;
+  }
+  &__img2{
+    aspect-ratio: 396/175;
+    object-fit: cover;
+  }
+  &__card{
+    padding: 15px;
+    &__coverImg{
+      border-radius: 25px;
+    }
+    &__txt1{
+      color: #FF9431;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    &__txt2{
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    &__btn{
+      text-transform: inherit;
+      &.uk-button-primary{
+        background: #31BDF9;
+      }
+      &.uk-button-secondary{
+        background: #61CE70;
+      }
+    }
+    &__dot1{
+      bottom: -40px;
+      >*{
+        &.uk-active{
+          >*{
+            background: #FF9431;
+            @include media-breakpoint-up('m'){
+              width: 54px;
+              border-radius: 20px;
+            }
+          }
+        }
+        >*{
+          border-color: #FF9431;
+          &:hover{
+            background: #FF9431;
+            border-color: transparent;
+          }
+        }
+      }
+    }
+    &__box{
+      >*{
+        &:nth-child(n+2){
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

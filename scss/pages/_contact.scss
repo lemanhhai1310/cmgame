@@ -1,0 +1,22 @@
+.contact{
+  &__title{
+    color: #FF9431 !important;
+    font-size: 60px;
+    font-weight: 600;
+  }
+  &__txt{
+    color: #FF9431;
+    font-size: 24px;
+    span{
+      display: inline-block;
+      border-bottom: 1px solid #FF9431;
+    }
+  }
+  &__box{
+    >*{
+      &:nth-child(n+2){
+        margin-top: 15px;
+      }
+    }
+  }
+}

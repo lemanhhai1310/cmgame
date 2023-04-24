@@ -20,12 +20,15 @@
             </div>
             <div>
                 <div class="vechungtoi__bg1">
-                    <img src="images/about1.png" alt="">
-                    <img src="images/about2.png" alt="">
-                    <img src="images/about3.png" alt="">
-                    <img src="images/about4.png" alt="">
-                    <img src="images/about5.png" alt="">
+                    <img class="uk-width" src="images/Group60.png" alt="">
                 </div>
+<!--                <div class="vechungtoi__bg1">-->
+<!--                    <img src="images/about1.png" alt="">-->
+<!--                    <img src="images/about2.png" alt="">-->
+<!--                    <img src="images/about3.png" alt="">-->
+<!--                    <img src="images/about4.png" alt="">-->
+<!--                    <img src="images/about5.png" alt="">-->
+<!--                </div>-->
             </div>
         </div>
     </div>

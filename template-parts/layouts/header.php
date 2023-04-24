@@ -40,7 +40,7 @@
                     <ul class="uk-navbar-nav uk-visible@m">
                         <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
                         <li><a href="vechungtoi.php">VỀ CHÚNG TÔI</a></li>
-                        <li><a href="#">SẢN PHẨM</a></li>
+                        <li><a href="sanpham.php">SẢN PHẨM</a></li>
                         <li><a href="hoatdong.php">HOẠT ĐỘNG</a></li>
                         <li><a href="tuyendung.php">TUYỂN DỤNG</a></li>
                         <li><a href="lienhe.php">LIÊN HỆ</a></li>
