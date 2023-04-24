@@ -14,7 +14,10 @@
                 <?php for ($i=1;$i<=6;$i++): ?>
                     <div>
                         <div class="uk-card uk-card-default hoatdong__card">
-                            <img src="images/noimage.jpg" alt="">
+                            <div class="uk-position-relative">
+                                <img src="images/noimage.jpg" alt="">
+                                <a href="" class="uk-position-cover"></a>
+                            </div>
                             <div class="uk-card-body hoatdong__card__body">
                                 <div class="hoatdong__card__time">April 17</div>
                                 <div class="hoatdong__card__title"><a href="">Cát Bà ngày trở lại - 2022</a></div>

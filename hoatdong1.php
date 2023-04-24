@@ -10,14 +10,22 @@
 <div class="uk-section-small">
     <div class="uk-container">
         <div class="hoatdong__boxContent uk-section-small">
-            <div class="uk-child-width-1-4@m uk-grid-small" uk-grid>
+            <div class="uk-child-width-1-4@m uk-grid-small" uk-lightbox="animation: slide" uk-grid>
                 <?php for ($i=1;$i<=8;$i++): ?>
                     <div>
-                        <div class="uk-cover-container" uk-lightbox>
-                            <img src="images/noimage.jpg" alt="" uk-cover="">
-                            <canvas width="275" height="400"></canvas>
-                            <a class="uk-position-cover" href="images/noimage.jpg"></a>
-                        </div>
+                        <a class="uk-inline" href="images/photo.jpg" data-caption="Caption 1">
+                            <img src="images/photo.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/dark.jpg" data-caption="Caption 2">
+                            <img src="images/dark.jpg" width="1800" height="1200" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="uk-inline" href="images/light.jpg" data-caption="Caption 3">
+                            <img src="images/light.jpg" width="1800" height="1200" alt="">
+                        </a>
                     </div>
                 <?php endfor; ?>
             </div>

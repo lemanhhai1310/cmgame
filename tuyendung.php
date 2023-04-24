@@ -23,7 +23,7 @@
                     </div>
                     <div class="uk-width-expand">
                         <div class="tuyendung__title">TUYỂN DỤNG</div>
-                        <div class="item__15 tuyendung__txt1">Unity Developer</div>
+                        <div class="item__15 tuyendung__txt1"><a href="tuyendung-detail.php">Unity Developer</a></div>
                         <div class="uk-margin tuyendung__txt2">Xây dựng và phát triển các dự án game casual và hyper casual, puzzle vv…Xây dựng và triển khai kiến trúc hệ thống game (game architecture design), cùng team lên ý tưởng và giải pháp cho các tính năng mới của game.Tham gia vào quy trình làm sản phẩm, được làm việc trực tiếp vs các bộ phận phối hợp với các thành viên trong team để hoàn thiện và tối ưu hóa sản phẩm .</div>
                         <div class="uk-text-right uk-margin">
                             <a href="tuyendung-detail.php" class="home__slideshow__btn uk-button uk-button-secondary uk-button-large uk-border-pill">Liên hệ</a>
