@@ -59,17 +59,17 @@
         </div>
     </nav>
     <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
-        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+        <div class="uk-offcanvas-bar">
 
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <button class="uk-offcanvas-close uk-close" type="button" uk-icon="ratio: 2; icon: close"></button>
 
-            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical">
                 <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
-                <li><a href="vechungtoi.php">VỀ CHÚNG TÔI</a></li>
-                <li><a href="sanpham.php">SẢN PHẨM</a></li>
-                <li><a href="hoatdong.php">HOẠT ĐỘNG</a></li>
-                <li><a href="tuyendung.php">TUYỂN DỤNG</a></li>
-                <li><a href="lienhe.php">LIÊN HỆ</a></li>
+                <li class="uk-margin-small-top"><a href="vechungtoi.php">VỀ CHÚNG TÔI</a></li>
+                <li class="uk-margin-small-top"><a href="sanpham.php">SẢN PHẨM</a></li>
+                <li class="uk-margin-small-top"><a href="hoatdong.php">HOẠT ĐỘNG</a></li>
+                <li class="uk-margin-small-top"><a href="tuyendung.php">TUYỂN DỤNG</a></li>
+                <li class="uk-margin-small-top"><a href="lienhe.php">LIÊN HỆ</a></li>
             </ul>
 
         </div>
