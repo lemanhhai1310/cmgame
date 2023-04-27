@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ecb88852-8964-481b-b911-3f75a47d5b02" name="cm_game" url="http://116.118.50.53">
+        <fileTransfer rootFolder="/themes.cathtmlcss.net/2023/04/cm_game" host="116.118.50.53" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
