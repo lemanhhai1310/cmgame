@@ -116,7 +116,9 @@
                 </div>
             </div>
             <div class="uk-overflow-hidden <?= (($k+1)%2 ==0) ? 'uk-flex-first' : '' ?>">
-                <img class="home__block01__img uk-width" src="<?= $v['img'] ?>" alt="">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img class="uk-transition-scale-up uk-transition-opaque home__block01__img uk-width" src="<?= $v['img'] ?>" alt="">
+                </div>
             </div>
         </div>
     </div>
