@@ -52,19 +52,25 @@
                     <div class="uk-navbar-item">
                         <div class="header__lang" style="--url: url('images/vietnam.png')">VI</div>
                     </div>
-                    <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
-                    <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
-                            <li><a href="vechungtoi.php">VỀ CHÚNG TÔI</a></li>
-                            <li><a href="sanpham.php">SẢN PHẨM</a></li>
-                            <li><a href="hoatdong.php">HOẠT ĐỘNG</a></li>
-                            <li><a href="tuyendung.php">TUYỂN DỤNG</a></li>
-                            <li><a href="lienhe.php">LIÊN HỆ</a></li>
-                        </ul>
-                    </div>
+                    <a class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m" uk-navbar-toggle-icon uk-toggle href="#offcanvas-flip"></a>
                 </div>
 
             </div>
         </div>
     </nav>
+    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
+                <li><a href="vechungtoi.php">VỀ CHÚNG TÔI</a></li>
+                <li><a href="sanpham.php">SẢN PHẨM</a></li>
+                <li><a href="hoatdong.php">HOẠT ĐỘNG</a></li>
+                <li><a href="tuyendung.php">TUYỂN DỤNG</a></li>
+                <li><a href="lienhe.php">LIÊN HỆ</a></li>
+            </ul>
+
+        </div>
+    </div>
