@@ -108,6 +108,10 @@
       &.uk-button-secondary{
         background: #FF9431;
         color: #fff;
+        &:hover{
+          background-color: #f2f2f2;
+          color: #666;
+        }
       }
     }
   }
