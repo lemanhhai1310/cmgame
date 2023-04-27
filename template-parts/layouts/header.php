@@ -52,6 +52,17 @@
                     <div class="uk-navbar-item">
                         <div class="header__lang" style="--url: url('images/vietnam.png')">VI</div>
                     </div>
+                    <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
+                            <li><a href="vechungtoi.php">VỀ CHÚNG TÔI</a></li>
+                            <li><a href="sanpham.php">SẢN PHẨM</a></li>
+                            <li><a href="hoatdong.php">HOẠT ĐỘNG</a></li>
+                            <li><a href="tuyendung.php">TUYỂN DỤNG</a></li>
+                            <li><a href="lienhe.php">LIÊN HỆ</a></li>
+                        </ul>
+                    </div>
                 </div>
 
             </div>
