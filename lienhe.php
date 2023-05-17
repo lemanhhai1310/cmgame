@@ -12,12 +12,12 @@
 <div class="uk-section uk-light">
     <div class="uk-container">
         <div class="hoatdong__boxContent uk-section-small uk-text-center">
-            <h1 class="contact__title">Liên hệ</h1>
+            <h1 class="contact__title" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">Liên hệ</h1>
 
 
-            <div>Gửi email cho chúng tôi hoặc liên lạc theo số điện thoại bên dướichúng tôi luôn chào đón bạn.</div>
-            <div>Thanks!</div>
-            <div class="uk-child-width-auto uk-flex-center uk-margin-large" uk-grid>
+            <div uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">Gửi email cho chúng tôi hoặc liên lạc theo số điện thoại bên dướichúng tôi luôn chào đón bạn.</div>
+            <div uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">Thanks!</div>
+            <div class="uk-child-width-auto uk-flex-center uk-margin-large" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 500; repeat: true" uk-grid>
                 <div>
                     <div class="contact__box">
                         <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">

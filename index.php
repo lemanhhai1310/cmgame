@@ -128,7 +128,7 @@
 <!--Store app-->
 <div class="uk-section-small home__bg2">
     <div class="uk-container">
-        <div class="uk-child-width-auto uk-flex-between uk-flex-middle" uk-grid>
+        <div class="uk-child-width-auto uk-flex-between uk-flex-middle" uk-scrollspy="target: img; cls: uk-animation-slide-right-small; delay: 500; repeat: true" uk-grid>
             <div>
                 <a href=""><img src="images/applestore.png" alt=""></a>
             </div>
@@ -148,9 +148,9 @@
     <div class="uk-position-cover home__service__bg uk-background-norepeat" data-src="images/paint-board-and-brush1.png" uk-img></div>
     <div class="uk-section uk-position-relative uk-position-z-index">
         <div class="uk-container">
-            <div class="home__title">CMGame <span>Mobile Services</span></div>
+            <div class="home__title" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">CMGame <span>Mobile Services</span></div>
             <div class="home__divider"></div>
-            <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-grid-match uk-grid-small uk-grid-30-m" uk-grid>
+            <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-grid-match uk-grid-small uk-grid-30-m" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 500; repeat: true" uk-grid>
                 <?php
                 $data = array(
                     array(
@@ -319,9 +319,9 @@
 <!--CMGame Và Những Con Số !-->
 <div class="uk-section home__bg2">
     <div class="uk-container">
-        <div class="home__title">CMGame <span>Và Những Con Số !</span></div>
+        <div class="home__title" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">CMGame <span>Và Những Con Số !</span></div>
         <div class="home__divider"></div>
-        <div class="uk-child-width-1-3@m uk-text-center" uk-grid>
+        <div class="uk-child-width-1-3@m uk-text-center" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 500; repeat: true" uk-grid>
             <div>
                 <div class="home__conso__box1">
                     <div class="home__conso__box uk-cover-container uk-border-circle uk-flex-inline">
@@ -369,7 +369,7 @@
 
 <div class="uk-section home__bg1">
     <div class="uk-container">
-        <div class="home__title">CMGame <span>Team Building</span></div>
+        <div class="home__title" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">CMGame <span>Team Building</span></div>
         <div class="item__70-30" uk-slider>
 
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
@@ -397,9 +397,9 @@
 
         </div>
 
-        <div class="home__title item__120-60">Bạn muốn tham gia cùng <span>CMGame Team?</span></div>
+        <div class="home__title item__120-60" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">Bạn muốn tham gia cùng <span>CMGame Team?</span></div>
         <div class="home__divider"></div>
-        <div class="uk-child-width-1-4@m uk-child-width-1-2 uk-grid-match" uk-grid>
+        <div class="uk-child-width-1-4@m uk-child-width-1-2 uk-grid-match" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 500; repeat: true" uk-grid>
             <?php
             $data = array(
                 array(

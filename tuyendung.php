@@ -9,7 +9,7 @@
 </div>
 <div class="uk-section">
     <div class="uk-container">
-        <div class="hoatdong__boxContent uk-section-small">
+        <div class="hoatdong__boxContent uk-section-small" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 500; repeat: true">
             <?php for ($i=1;$i<=3;$i++): ?>
             <div class="tuyendung__item">
                 <div uk-grid>

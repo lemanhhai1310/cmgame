@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -12,14 +13,15 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.11/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="style.css?v=1682347351">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css?v=1684331531">
 
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.11/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.11/dist/js/uikit-icons.min.js"></script>
-    <script src="js/app.js?v=1682347351"></script>
+    <script src="js/app.js?v=1684331531"></script>
 </head>
 <body class="">
 <!--app-->
@@ -51,11 +53,28 @@
                     <div class="uk-navbar-item">
                         <div class="header__lang" style="--url: url('images/vietnam.png')">VI</div>
                     </div>
+                    <a class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m" uk-navbar-toggle-icon uk-toggle href="#offcanvas-flip"></a>
                 </div>
 
             </div>
         </div>
-    </nav><div class="uk-background-norepeat uk-light uk-section-large uk-background-center-center uk-background-cover" data-src="images/Rectangle-40.png" uk-img>
+    </nav>
+    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar">
+
+            <button class="uk-offcanvas-close uk-close" type="button" uk-icon="ratio: 2; icon: close"></button>
+
+            <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical">
+                <li class="uk-active"><a href=".">TRANG CHỦ</a></li>
+                <li class="uk-margin-small-top"><a href="vechungtoi.php">VỀ CHÚNG TÔI</a></li>
+                <li class="uk-margin-small-top"><a href="sanpham.php">SẢN PHẨM</a></li>
+                <li class="uk-margin-small-top"><a href="hoatdong.php">HOẠT ĐỘNG</a></li>
+                <li class="uk-margin-small-top"><a href="tuyendung.php">TUYỂN DỤNG</a></li>
+                <li class="uk-margin-small-top"><a href="lienhe.php">LIÊN HỆ</a></li>
+            </ul>
+
+        </div>
+    </div><div class="uk-background-norepeat uk-light uk-section-large uk-background-center-center uk-background-cover" data-src="images/Rectangle-40.png" uk-img>
     <div class="uk-container">
         <div class="hoatdong__header__txt">Xem các hoạt động của chúng tôi</div>
         <div class="hoatdong__header__title"><span>Hoạt động</span></div>
@@ -64,7 +83,7 @@
     <div class="uk-section-small">
         <div class="uk-container">
             <div class="hoatdong__boxContent uk-section-small">
-                <div class="uk-child-width-1-4@m uk-grid-small" uk-lightbox="animation: slide" uk-grid>
+                <div class="uk-child-width-1-4@m uk-grid-small" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 500; repeat: true" uk-lightbox="animation: slide" uk-grid>
                     <div>
                         <a class="uk-inline" href="images/photo.jpg" data-caption="Caption 1">
                             <img src="images/photo.jpg" width="1800" height="1200" alt="">

@@ -19,11 +19,11 @@
                         <div>
                             <div class="uk-card uk-card-body uk-flex uk-flex-middle sanpham__card">
                                 <div class="uk-width uk-text-center sanpham__card__box">
-                                    <div class="sanpham__card__coverImg uk-cover-container uk-flex-inline uk-border-rounded">
+                                    <div uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true" class="sanpham__card__coverImg uk-cover-container uk-flex-inline uk-border-rounded">
                                         <img src="images/noimage.jpg" alt="" uk-cover="">
                                         <canvas width="110" height="110"></canvas>
                                     </div>
-                                    <div class="sanpham__card__txt1">Mini Mart: Idle Farm Tycoon</div>
+                                    <div uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true" class="sanpham__card__txt1">Mini Mart: Idle Farm Tycoon</div>
                                     <div class="sanpham__card__txt2">Plant trees, raise livestock, harvest, and sell products to customers.</div>
                                     <div>
                                         <a href="" class="sanpham__card__btn uk-button uk-button-primary uk-border-pill">IOS</a>

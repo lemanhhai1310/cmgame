@@ -10,7 +10,7 @@
 <div class="uk-section-small">
     <div class="uk-container">
         <div class="hoatdong__boxContent uk-section-small">
-            <div class="uk-child-width-1-4@m uk-grid-small" uk-lightbox="animation: slide" uk-grid>
+            <div class="uk-child-width-1-4@m uk-grid-small" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 500; repeat: true" uk-lightbox="animation: slide" uk-grid>
                 <?php for ($i=1;$i<=8;$i++): ?>
                     <div>
                         <a class="uk-inline" href="images/photo.jpg" data-caption="Caption 1">
