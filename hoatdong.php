@@ -10,7 +10,7 @@
 <div class="uk-section-small">
     <div class="uk-container">
         <div class="hoatdong__boxContent uk-section-small">
-            <div class="uk-child-width-1-3@m" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 500; repeat: true" uk-grid>
+            <div class="uk-child-width-1-3@m" uk-scrollspy="target: >div; cls: uk-animation-slide-right-small; delay: 300; repeat: false" uk-grid>
                 <?php for ($i=1;$i<=6;$i++): ?>
                     <div>
                         <div class="uk-card uk-card-default hoatdong__card">
